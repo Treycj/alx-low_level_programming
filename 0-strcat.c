@@ -5,7 +5,7 @@ int main(){
 char dest[] = "Hello";
 char src[] = "World\n";
 char *ptr;
-ptr =_strcat(dest,src);
+ptr =strcat(dest,src);
 putchar(ptr);
 return 0;
 }
